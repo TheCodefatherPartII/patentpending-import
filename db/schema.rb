@@ -19,6 +19,14 @@ ActiveRecord::Schema.define(version: 20170729072251) do
   enable_extension "postgis_tiger_geocoder"
   enable_extension "postgis_topology"
 
+  create_table "ip_change_notification_requests", id: :bigint, default: -> { "nextval('ip_change_notifcation_requests_id_seq'::regclass)" }, force: :cascade do |t|
+    t.string "trade_mark_number", limit: 50
+    t.string "australian_application_number", limit: 50
+    t.string "email_address", limit: 300
+    t.string "device_uuid", limit: 5000
+    t.json "last_notified_state"
+  end
+
   create_table "layer", primary_key: ["topology_id", "layer_id"], force: :cascade do |t|
     t.integer "topology_id", null: false
     t.integer "layer_id", null: false
@@ -95,6 +103,10 @@ ActiveRecord::Schema.define(version: 20170729072251) do
     t.date "in_force_to_date"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "patents_metadata", primary_key: "australian_appl_no", id: :bigint, default: nil, force: :cascade do |t|
+    t.json "metadata"
   end
 
   create_table "spatial_ref_sys", primary_key: "srid", id: :integer, default: nil, force: :cascade do |t|
