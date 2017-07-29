@@ -1,0 +1,2 @@
+class TradeMarksApplicantInformation < ApplicationRecord
+end
