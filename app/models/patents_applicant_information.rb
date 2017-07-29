@@ -1,0 +1,2 @@
+class PatentsApplicantInformation < ApplicationRecord
+end
