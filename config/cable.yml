@@ -7,4 +7,4 @@ test:
 production:
   adapter: redis
   url: redis://localhost:6379/1
-  channel_prefix: patent_pending_import_production
+  channel_prefix: patentpending_import_production
