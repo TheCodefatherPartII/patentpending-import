@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170729035739) do
+ActiveRecord::Schema.define(version: 20170729062257) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -29,6 +29,36 @@ ActiveRecord::Schema.define(version: 20170729035739) do
     t.integer "level", default: 0, null: false
     t.integer "child_id"
     t.index ["schema_name", "table_name", "feature_column"], name: "layer_schema_name_table_name_feature_column_key", unique: true
+  end
+
+  create_table "patents_applicant_informations", force: :cascade do |t|
+    t.bigint "ipa_applt_id"
+    t.string "australian_appl_no"
+    t.string "appln_type"
+    t.string "name"
+    t.string "cleanname"
+    t.string "country"
+    t.bigint "australian"
+    t.bigint "entity"
+    t.bigint "ipa_id"
+    t.bigint "abn"
+    t.bigint "acn"
+    t.string "source"
+    t.bigint "big"
+    t.bigint "ultimate"
+    t.bigint "lat"
+    t.bigint "lon"
+    t.bigint "qg"
+    t.string "state"
+    t.bigint "postcode"
+    t.bigint "patstat_appln_id"
+    t.string "applicant_type"
+    t.bigint "sa2_main11"
+    t.string "sa2_name11"
+    t.string "gcc_code11"
+    t.string "gcc_name11"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "patents_ip_australia_process_informations", force: :cascade do |t|
