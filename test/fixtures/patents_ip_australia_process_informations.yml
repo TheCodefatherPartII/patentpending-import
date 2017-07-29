@@ -1,0 +1,67 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  australian_appl_no: MyString
+  source_data_key_code: MyString
+  patent_type: MyString
+  pct_application_ind: MyString
+  requested_exam_type: MyString
+  exam_status_type: MyString
+  examination_section_name: MyString
+  acceptance_postponed_ind: MyString
+  accepted_claims_count: 1
+  patent_status_type: MyString
+  application_date: 2017-07-29
+  npe_date: 2017-07-29
+  filing_date: 2017-07-29
+  opi_date: 2017-07-29
+  expiry_date: 2017-07-29
+  search_completed_date: 2017-07-29
+  exam_request_date: 2017-07-29
+  exam_request_filing_date: 2017-07-29
+  deferement_request_date: 2017-07-29
+  first_report_issue_date: 2017-07-29
+  further_report_issue_date: 2017-07-29
+  search_results_received_date: 2017-07-29
+  thrd_prty_exam_request_date: 2017-07-29
+  earliest_priority_date: 2017-07-29
+  acceptance_published_date: 2017-07-29
+  sealing_date: 2017-07-29
+  wipo_publication_date: 2017-07-29
+  effective_patent_date: 2017-07-29
+  opi_published_in_journal_date: 2017-07-29
+  continue_renew_fee_paid_date: 2017-07-29
+  in_force_to_date: 2017-07-29
+
+two:
+  australian_appl_no: MyString
+  source_data_key_code: MyString
+  patent_type: MyString
+  pct_application_ind: MyString
+  requested_exam_type: MyString
+  exam_status_type: MyString
+  examination_section_name: MyString
+  acceptance_postponed_ind: MyString
+  accepted_claims_count: 1
+  patent_status_type: MyString
+  application_date: 2017-07-29
+  npe_date: 2017-07-29
+  filing_date: 2017-07-29
+  opi_date: 2017-07-29
+  expiry_date: 2017-07-29
+  search_completed_date: 2017-07-29
+  exam_request_date: 2017-07-29
+  exam_request_filing_date: 2017-07-29
+  deferement_request_date: 2017-07-29
+  first_report_issue_date: 2017-07-29
+  further_report_issue_date: 2017-07-29
+  search_results_received_date: 2017-07-29
+  thrd_prty_exam_request_date: 2017-07-29
+  earliest_priority_date: 2017-07-29
+  acceptance_published_date: 2017-07-29
+  sealing_date: 2017-07-29
+  wipo_publication_date: 2017-07-29
+  effective_patent_date: 2017-07-29
+  opi_published_in_journal_date: 2017-07-29
+  continue_renew_fee_paid_date: 2017-07-29
+  in_force_to_date: 2017-07-29

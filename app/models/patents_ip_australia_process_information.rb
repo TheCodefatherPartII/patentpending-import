@@ -1,0 +1,2 @@
+class PatentsIpAustraliaProcessInformation < ApplicationRecord
+end
