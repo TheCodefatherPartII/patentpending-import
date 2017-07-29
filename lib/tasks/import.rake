@@ -11,4 +11,9 @@ namespace :import do
   task ipgod107: :environment do
     Ipgod107Importer.run
   end
+
+  desc "Import ipgod202"
+  task ipgod202: :environment do
+    Ipgod202Importer.run
+  end
 end

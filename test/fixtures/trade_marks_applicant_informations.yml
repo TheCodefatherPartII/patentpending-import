@@ -1,0 +1,53 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ipa_applt_id: 1
+  tm_number: MyString
+  appln_type: MyString
+  name: MyString
+  cleanname: MyString
+  country: MyString
+  australian: 1
+  entity: 1
+  ipa_id: 1
+  abn: 1
+  acn: 1
+  source: MyString
+  big: 1
+  ultimate: 1
+  lat: 1
+  lon: 1
+  qg: 1
+  state: MyString
+  postcode: 1
+  applicant_type: MyString
+  sa2_main11: 1
+  sa2_name11: MyString
+  gcc_code11: MyString
+  gcc_name11: MyString
+
+two:
+  ipa_applt_id: 1
+  tm_number: MyString
+  appln_type: MyString
+  name: MyString
+  cleanname: MyString
+  country: MyString
+  australian: 1
+  entity: 1
+  ipa_id: 1
+  abn: 1
+  acn: 1
+  source: MyString
+  big: 1
+  ultimate: 1
+  lat: 1
+  lon: 1
+  qg: 1
+  state: MyString
+  postcode: 1
+  applicant_type: MyString
+  sa2_main11: 1
+  sa2_name11: MyString
+  gcc_code11: MyString
+  gcc_name11: MyString

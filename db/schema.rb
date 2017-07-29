@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170729062257) do
+ActiveRecord::Schema.define(version: 20170729072251) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -110,6 +110,35 @@ ActiveRecord::Schema.define(version: 20170729062257) do
     t.float "precision", null: false
     t.boolean "hasz", default: false, null: false
     t.index ["name"], name: "topology_name_key", unique: true
+  end
+
+  create_table "trade_marks_applicant_informations", force: :cascade do |t|
+    t.bigint "ipa_applt_id"
+    t.string "tm_number"
+    t.string "appln_type"
+    t.string "name"
+    t.string "cleanname"
+    t.string "country"
+    t.bigint "australian"
+    t.bigint "entity"
+    t.bigint "ipa_id"
+    t.bigint "abn"
+    t.bigint "acn"
+    t.string "source"
+    t.bigint "big"
+    t.bigint "ultimate"
+    t.bigint "lat"
+    t.bigint "lon"
+    t.bigint "qg"
+    t.string "state"
+    t.bigint "postcode"
+    t.string "applicant_type"
+    t.bigint "sa2_main11"
+    t.string "sa2_name11"
+    t.string "gcc_code11"
+    t.string "gcc_name11"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   add_foreign_key "layer", "topology", name: "layer_topology_id_fkey"
