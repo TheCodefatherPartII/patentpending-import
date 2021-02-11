@@ -10,7 +10,7 @@ gem 'dotenv-rails', groups: [:development, :test]
 gem 'pg'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.2'
+gem 'rails', '~> 6.0.3', '>= 6.0.3.5'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
